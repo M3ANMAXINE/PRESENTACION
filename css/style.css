@@ -1,0 +1,61 @@
+.letra{ 
+    font-family: 'Raleway', sans-serif;
+    background: #000000 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: white;
+  }
+
+  .letra2{
+      background-color: #000000;
+      opacity: 1;
+      color: white;
+     text-align: justify;
+   
+  }
+
+.body{
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: white;
+}
+
+.iguana1{
+    height: 40%;
+}
+
+
+.letra3{
+    background-color:#1E1A13;
+    opacity: 1;
+    color: white;
+   text-align: center;
+ 
+}
+
+.letra4{
+    top: 1386px;
+left: 301px;
+width: 108px;
+height: 29px;
+text-align: center;
+font: Light 24px/29px Raleway;
+letter-spacing: 0;
+color: #FFFFFF;
+opacity: 1;
+padding-right: 5rem;
+}
+
+.fo{
+    background-color: #1E1A13;
+    opacity: 94%;
+    text-align: center;
+    padding:2rem;
+    font: Light 24px/29px Raleway;
+
+}
+
+.padding{
+    padding-bottom:2rem ;
+    
+}

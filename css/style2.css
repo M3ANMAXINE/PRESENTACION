@@ -1,0 +1,58 @@
+.l { opacity: 1;
+    color: #707070;
+    font-family: 'Open Sans', sans-serif;
+      
+}
+
+.l2{
+    opacity: 1;
+    color: #707070;
+    font-family: 'Open Sans', sans-serif;
+font-size: 3rem;
+text-align: center;
+
+}
+
+.l3{
+    opacity: 1;
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+   
+  
+   
+}
+
+.l4{
+    color: white;
+}
+
+.img{
+
+    background-color: #E83E8C;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+.padding{
+    padding-bottom:2rem ;
+    
+}
+
+
+
+@media only screen and (max-width: 320px) {
+    .celu {
+      display: none;
+    }
+
+}
+
+
+
+    .tx{
+        text-align: center;
+        justify-content: center;
+        align-self: center;
+    }
