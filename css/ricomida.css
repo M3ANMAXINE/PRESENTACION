@@ -1,0 +1,186 @@
+
+.cabin1{
+
+    font-family: 'Cabin', sans-serif;
+    font-weight: bold;
+    
+
+}
+
+.lobster1{
+
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+
+}
+
+
+.lobster{
+
+    font-family: 'Lobster', cursive;
+    color: #FFFFFF;
+    opacity: 100%;
+    
+    font-size:x-large;
+
+}
+
+.cabin{
+
+    font-family: 'Cabin', sans-serif;
+    color: #FFFFFF;
+    opacity: 100%;
+
+}
+
+.fo{
+
+    background-color: #373A3C;
+    opacity: 94%;
+    text-align: center;
+    padding:2rem;
+    font-size:x-large;
+    font-family: 'Lobster', cursive;
+    color: white;
+}
+
+.sec{
+
+    text-align: center;
+    background-color: #DC3545;
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 9.5rem;
+
+}
+
+.bot{
+
+    background-color: white;
+    color: black;
+  padding-left: 2rem;
+  padding-right: 2rem;
+   font-size: small;
+   font-family: 'Cabin', sans-serif;
+   
+}
+
+.bot1{
+
+    background-color: white;
+    color: black;
+  
+   font-size: small;
+   font-family: 'Cabin', sans-serif;
+   
+}
+
+.titulo {
+    width: 50%;
+    
+    
+}
+
+
+
+
+
+@media only screen and (max-width:700px) and (min-width:300px) {
+    .celu {
+      display: none;
+    }
+
+}
+
+
+@media only screen and (min-width:768px ){
+
+    .hrr{
+
+       display:none;
+    }
+}
+
+
+@media only screen and (max-width:768px ){
+
+    .hrrr{
+
+       display:none;
+       
+    }
+}
+
+.recetas1{
+
+    font-family: 'Cabin', sans-serif;
+    color: #373A3C;
+    text-align: left;
+    font-weight: 400;
+
+}
+
+
+
+
+
+
+.recetas{
+
+    font-family: 'Cabin', sans-serif;
+    color: #373A3C;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.hr{
+
+    color: black;
+    font-weight: bold;
+    border-color: black;
+}
+
+
+.receta{
+
+    font-family: 'Cabin', sans-serif;
+    color:#373A3C;
+    text-align: left;
+    text-align: justify;
+    font-weight:400;
+    
+
+}
+
+.h1{
+
+    text-align: left;
+}
+
+.boton{
+
+    padding-top: 1rem;
+    text-align: left;
+}
+
+.boton2{
+
+    padding-right: 2rem;
+   
+}
+
+.div{
+    text-align: right;
+}
+
+.txr{
+
+    text-align: right;
+    
+}
+
+.carru{
+
+    padding-top: 2rem;
+}

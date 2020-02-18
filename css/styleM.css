@@ -1,0 +1,43 @@
+.oscuro{ 
+    background: black;
+    color: white;
+    padding: 1%;
+   
+}
+
+.opcionesmenu li{
+    display: inline-block;
+    padding: 11px;
+    cursor: pointer;
+}
+
+.icono {
+    width: 2rem;
+  }
+
+.icono svg{
+    fill: white;
+   
+}
+
+.seccion{
+
+    background-image:url(../Assets/bg-hero.png);
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 1%;
+    height: 300px;
+    
+}
+
+.seccion h1{
+    font-style: italic;
+    font-size: 50px;
+}
+
+.seccion h2{
+    font-style: italic;
+    font-size: 30px;
+}
