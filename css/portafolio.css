@@ -3,15 +3,94 @@ font-family: 'Oswald', sans-serif;
 opacity: 100%;
 color: #FFFFFF;
 font-size: 2.5rem;
-padding-left: 8rem;
-
-
+padding-left: 5rem;
 }
 
 .bar{
-
     background-color: #660066;
     color: #FFFFFF;
-   
+   }
+
+   .fo{
+    background-color: #660066;
+    color: white;
+    font-size: 2.3rem;
+            }
+
+   .fo2{
+    color: white;
+    font-size: 2.1rem;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+      }
+    
+.lobster1{
+    font-family: 'Lobster', cursive;
+    font-weight: 400;
+}
+.bot{
+    background-color: #373A3C;
+    color:white;
+  padding-left: 2rem;
+  padding-right: 2rem;
+   font-size: small;
+   font-family: 'Cabin', sans-serif;
+   font-weight: bolder;
+   }
+
+.osw{
+    font-family: 'Oswald', sans-serif;
+    color: #373A3C;
+}
+.osw1{
+    font-family: 'Oswald', sans-serif;
+    color:white;
+    opacity: 100%;
+    text-align: center;
+}
+.sec{
+    text-align: center;
+    background-color:white;
+    color: black;
+    padding-top: 2rem;
+    padding-bottom: 9.5rem;
+}
+
+.sans{
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.pd{
+
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
+
+.padcon{
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+}
+
+.ult{
+    background-color: #660066;
+    text-align: center;
+}
+
+.img{
+   background-image: url(../Assets/Assets-portafolio/paracaida2.jpg);
+   height: 550px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position-y: center;
+}
+
+.h1{
+    text-align: center;
+    padding-top: 25rem;
+}
+.h11{
+    text-align: center;
+    padding-top: 1rem;
 }
 
