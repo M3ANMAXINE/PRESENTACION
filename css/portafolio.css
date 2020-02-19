@@ -87,10 +87,50 @@ padding-left: 5rem;
 
 .h1{
     text-align: center;
-    padding-top: 25rem;
+    padding-top: 24rem;
 }
 .h11{
     text-align: center;
-    padding-top: 1rem;
+    padding-top: 0.5rem;
+    font-family: 'Lacquer', sans-serif;
+
 }
 
+.lac{
+    font-family: 'Lacquer', sans-serif;
+}
+
+.intro{
+
+    text-align: center;
+    color: #373A3C;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 100%;
+    padding-top: 3rem;
+    
+    line-height: 60px;
+}
+
+.intro1{
+    text-align: justify;
+    color: #373A3C;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 100%;
+    line-height: 40px;
+    padding-top: 2rem;
+
+}
+
+@media only screen and (max-width:700px) and (min-width:300px) {
+    .celu {
+      display: none;
+    }
+
+}
+
+.hr {
+    height: 1px;
+    width: 10%;
+    background-color: black;
+    
+  }
