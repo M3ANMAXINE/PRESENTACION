@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+
 .nav{
 font-family: 'Oswald', sans-serif;
 opacity: 100%;
@@ -141,3 +146,5 @@ padding-left: 5rem;
       }
 
       #trabajos a{ height: 200px; overflow: hidden; display: block; margin-bottom: 40px; margin-top: 20px;}
+
+
