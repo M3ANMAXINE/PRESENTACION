@@ -132,5 +132,12 @@ padding-left: 5rem;
     height: 1px;
     width: 10%;
     background-color: black;
-    
-  }
+      }
+
+      .img1{
+
+        width: 300px;
+        height: 300px;
+      }
+
+      #trabajos a{ height: 200px; overflow: hidden; display: block; margin-bottom: 40px; margin-top: 20px;}

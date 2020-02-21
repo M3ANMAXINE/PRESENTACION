@@ -1,0 +1,160 @@
+.oscuro{ 
+    background: black;
+    color: white;
+    padding: 1%;
+   
+}
+
+.opcionesmenu li{
+    display: inline-block;
+    padding: 11px;
+    cursor: pointer;
+    color: white;
+}
+
+.icono {
+    width: 2rem;
+  }
+
+.icono svg{
+    fill: white;
+   
+}
+
+.seccion{
+
+    background-image:url(../Assets/bg-hero.png);
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 1%;
+    height: 300px;
+    
+}
+
+.seccion h1{
+    font-style: italic;
+    font-size: 50px;
+}
+
+.seccion h2{
+    font-style: italic;
+    font-size: 30px;
+}
+
+
+.imagen{ 
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-bottom: 3rem;
+    font-style: italic;
+    font-size: 50px;
+    text-align: center;
+       
+}
+
+.imagen h6{
+  
+    text-align: justify;
+   font-size: 1 px;
+   padding: 1%;
+   margin: 0px;
+   
+}
+
+.imagen H1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 1.125em;
+    margin-bottom: 1em;
+    color: blue;
+}
+
+
+.work{
+
+padding: 100px;  
+margin-left: 400px;
+    
+    
+}
+
+.work h2{
+    font-size: 40px;
+    text-align: left;
+    margin-top: 1.125em;
+    margin-bottom: 1em;
+    color: blue;
+    margin-left: 80px;
+}
+
+.work p{
+font-size: 18px;
+text-align: left;
+margin-top: 1.125em;
+margin-bottom: 1em;
+color: black;
+
+}
+
+.laranja{
+    text-align: left;
+    background: #a4452c;
+    color: #ffffff;
+    padding: 3.125rem;
+    white-space: nowrap;
+}
+
+.c{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.ct{width: 70%;
+    vertical-align: middle;
+    margin-left: 2.5%;
+    white-space: normal;
+    display: inline-block;}
+
+    .body{    margin: 0;
+        border: 0;
+        padding: 0;}
+
+        .cs{    width: 25%;
+            vertical-align: middle;
+        }
+
+    .evento{
+        width: 50%;
+      
+    }
+
+    .evento h2{
+        font-size: 50px;
+        text-align: right;
+        margin-top: 1.125em;
+               color: blue;
+
+    }
+
+    .foto{
+           
+        padding: 5px 10px 5px ;
+
+float:left;
+width:200px;
+text-align:right;
+        }
+        
+    
+        .oscuro2{ 
+            background: black;
+            color: white;
+            padding: 1%;
+          
+           
+        }
+        
+       
