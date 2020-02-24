@@ -69,7 +69,7 @@ padding-left: 5rem;
    height:100vh;
    background-size: cover;
    background-repeat: no-repeat;
-   background-position-y: right;
+   background-position: right;
 }
 
 .h1{
@@ -101,15 +101,27 @@ padding-left: 5rem;
     opacity: 70%;
     line-height: 40px;
     padding-top: 2rem;
-
 }
 
 @media only screen and (max-width:700px) and (min-width:300px) {
     .celu {
       display: none;
     }
-
 }
+
+@media (min-width:600px) {
+    .celu2 {
+      width: 100%;
+    }
+    .celu2 iframe{
+        width: 100%;
+        height: 400px;
+    }
+    .wrap {
+        margin-top: -80px;
+    }
+}
+
 
 .hr {
     height: 1px;
