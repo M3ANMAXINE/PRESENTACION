@@ -9,8 +9,11 @@
   <link rel="stylesheet" href="../css/bootstrap.css">
   <link rel="stylesheet" href="../js/bootstrap.bundle.js">
   <link rel="stylesheet" href="../js/bootstrap.js">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="../css/estilos.css">
+	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/3.0.2/normalize.css">
   <link rel="stylesheet" href="../css/portafolio.css">
-  <link rel="stylesheet" href="../css/portafolio2.css">
+  <link href="https://fonts.googleapis.com/css?family=Acme|Allan|ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
   
   
@@ -18,6 +21,17 @@
   <title>CRISTIAN</title>
 </head>
 <body>
+
+  <section class="seccionToggle">
+		<div class="wrap">
+			<h2>Video de Capadocia</h2> <br>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/L6lk2mV2OFg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <br><br>
+		<p>En esta nueva aventura, recorri la ciudad de goreme, en el sector de capadocia, turkia.</p>
+    </div>
+	</section>
+
+	<a href="#" id="btn-toggle" class="btn-toggle">Nuevo Video</a>
+
   
   <!-- navbar -->
   
@@ -26,6 +40,7 @@
     
     
     <a class=" navbar-brand" href="#">
+     
       <span class="nav">C</span> 
     </a>
     
@@ -55,11 +70,8 @@
   <!-- yo soy--- -->
   <div class="container-fluid">
     <div class="row">
-      <div class="col-lg-12 img">
-        <div>
-          <h1 class="h1 lac"> THIS IS ME</h1>
-          <h1 class="h11 lac">CRISTIAN</h1>
-        </div>
+      <div class="col-lg-12 col-sm-12 col-xs-12 img">
+        
       </div>
     </div>
   </div>
@@ -73,7 +85,7 @@
         <h3 class="intro">YO</h3>
         <hr class="hr">
         
-        <div class="row">
+        <div class="row acme">
           <h5 class="intro1 col-lg-6">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consequat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.
           </h5>
@@ -87,8 +99,8 @@
   
   <!-- ----------------------------------MIS VIAJES------------------------------ -->
   
-  <h1 id="viajes" class="intro">MIS VIAJES</h1>
-  <hr class="hr">
+  <h1 id="viajes" class="intro celu zcool">MIS VIAJES</h1>
+  <hr class="celu hr">
   <section class="pb-5 container celu">
     <article class="row">
       <div class=" col">
@@ -99,6 +111,7 @@
             
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          
             
           </ol>
           
@@ -119,17 +132,19 @@
                 
               </div>
             </div>
+
+            
             
             <div class="carousel-item">
               <div class="row">
                 
                 <img class="pt-5 col-3 text-center"  src="../Assets/Assets-portafolio/paracaida.jpg" width="100px" height="300px"  alt="" >
                 
-                <img class="pt-5 col-3 text-center"  src="../Assets/Assets-portafolio/rio.jpg" width="100px" height="300px" alt="" >
+                <img class="pt-5 col-3 text-center"  src="../Assets/Assets-portafolio/roma3.JPG" width="100px" height="300px" alt="" >
                 
-                <img class="pt-5 col-3 text-center"  src="../Assets/Assets-portafolio/madrid.jpg" width="100px" height="300px" alt="" >
+                <img class="pt-5 col-3 text-center"  src="../Assets/Assets-portafolio/goreme4.JPG" width="100px" height="300px" alt="" >
                 
-                <img class="pt-5  col-3 text-center"  src="../Assets/Assets-portafolio/buzios.jpg" width="100px" height="300px" alt="" >
+                <img class="pt-5  col-3 text-center"  src="../Assets/Assets-portafolio/pisa.JPG" width="100px" height="300px" alt="" >
                 
               </div>
             </div>
@@ -170,8 +185,7 @@
         
         
         <div class="col-lg-4 ">
-          <a title="meet" href="../html/meetandcoffe.html" target="_blank">
-            <img class="img-fluid" src="../Assets/Assets-portafolio/Trabajos/meetandcofee.PNG" alt="meet" />
+          <a title="meet" href="../html/meetandcoffe.html" target="_blank"><img class="img-fluid" src="../Assets/Assets-portafolio/Trabajos/wework 1352x656.jpg" alt="wework" />
           </a>
         </div>
         
@@ -180,19 +194,19 @@
         </div>
         
         <div class="col-lg-4">
-          <a title="suricata" href="../html/suricata.html" target="_blank"><img class="img-fluid" src="../Assets/Assets-portafolio/Trabajos/suricata.PNG" alt="suricata" /></a>
+          <a title="suricata" href="../html/suricata.html" target="_blank"><img class="img-fluid" src="../Assets/Assets-portafolio/Trabajos/Suricata 1240x585.jpg" alt="suricata" /></a>
         </div>
         
         <div class="col-lg-4">
-          <a title="cuppon" href="../html/cupon.html" target="_blank"><img class="img-fluid" src="../Assets/Assets-portafolio/Trabajos/cuppon.PNG" alt="cupon" /></a>
+          <a title="cuppon" href="../html/cupon.html" target="_blank"><img class="img-fluid" src="../Assets/Assets-portafolio/Trabajos/cuppon 1351x605.jpg" alt="cupon" /></a>
         </div>
         
         <div class="col-lg-4">
-          <a title="ricomida" href="../html/ricomida.html" target="_blank"><img class="img-fluid" src="../Assets/Assets-portafolio/Trabajos/ricomida.PNG" alt="ricomida" /></a>
+          <a title="ricomida" href="../html/ricomida.html" target="_blank"><img class="img-fluid" src="../Assets/Assets-portafolio/Trabajos/ricomida 1352x605.jpg" alt="ricomida" /></a>
         </div>
         
         <div class="col-lg-4">
-          <a title="portafolio" href="#" target="_blank"><img class="img-fluid" src="../Assets/Assets-portafolio/Trabajos/portafolio.PNG" alt="portafolio" /></a>
+          <a title="portafolio" href="#" target="_blank"><img class="img-fluid" src="../Assets/Assets-portafolio/Trabajos/portafolio.JPG" alt="portafolio" /></a>
         </div>
      
     </article>
@@ -204,23 +218,15 @@
     
     <article>
       
-      <div>
-        <h2 class="osw padcon">CONTACTO</h2>
-        <h3 class="font-weight-lighter sans">¿Quieres conocer más de MI?</h3> 
-      </div>
+     
       
-      <div class="pd">
-        <button type="button" class=" bot1 btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Presiona para comenzar">
-          Comenzar
-        </button>
-      </div>
+      <div class="typeform-widget" data-url="https://cherreraj.typeform.com/to/W65B9J" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=W65B9J&utm_source=typeform.com-01E1MT2ATH0VG7EGHWTT0QWSDP-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>  <!-- footer  --->
+
     </article>
     
   </section>
   
   
-  <div class="typeform-widget" data-url="https://cherreraj.typeform.com/to/W65B9J" data-transparency="50" data-hide-headers=true data-hide-footer=true style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=W65B9J&utm_source=typeform.com-01E1MT2ATH0VG7EGHWTT0QWSDP-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
-  <!-- footer  --->
   
   
   <footer class=" px-5 py-5 fo container-fluid ">
@@ -251,5 +257,6 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>   
   <script src="../js/portafolio.js"></script>
+  <script src="../js/seccion.js"></script>
 </body>
 </html>

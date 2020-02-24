@@ -28,10 +28,7 @@ padding-left: 5rem;
     font-family: 'Oswald', sans-serif;
     text-align: center;
       }
-    
-.lobster1{
-    font-family: 'Lobster', cursive;
-    font-weight: 400;
+
 }
 .bot{
     background-color: #373A3C;
@@ -43,27 +40,12 @@ padding-left: 5rem;
    font-weight: bolder;
    }
 
-.osw{
-    font-family: 'Oswald', sans-serif;
-    color: #373A3C;
-}
-.osw1{
-    font-family: 'Oswald', sans-serif;
-    color:white;
-    opacity: 100%;
-    text-align: center;
-}
 .sec{
     text-align: center;
     background-color:white;
     color: black;
     padding-top: 2rem;
-    padding-bottom: 9.5rem;
-}
-
-.sans{
-    font-family: 'Source Sans Pro', sans-serif;
-
+    
 }
 
 .pd{
@@ -83,11 +65,11 @@ padding-left: 5rem;
 }
 
 .img{
-   background-image: url(../Assets/Assets-portafolio/paracaida2.jpg);
-   height: 550px;
+   background-image: url(../Assets/Assets-portafolio/CAPADOCIA.jpg);
+   height:100vh;
    background-size: cover;
    background-repeat: no-repeat;
-   background-position-y: center;
+   background-position-y: right;
 }
 
 .h1{
@@ -101,26 +83,22 @@ padding-left: 5rem;
 
 }
 
-.lac{
-    font-family: 'Lacquer', sans-serif;
-}
 
 .intro{
 
     text-align: center;
-    color: #373A3C;
-    font-family: 'Open Sans', sans-serif;
+    color: white;
     opacity: 100%;
     padding-top: 3rem;
-    
+    font-family: 'Allan', ;    
     line-height: 60px;
 }
 
 .intro1{
     text-align: justify;
-    color: #373A3C;
-    font-family: 'Open Sans', sans-serif;
-    opacity: 100%;
+    color: white;
+    font-family:  font-family: 'Acme', ;
+    opacity: 70%;
     line-height: 40px;
     padding-top: 2rem;
 
@@ -147,4 +125,17 @@ padding-left: 5rem;
 
       #trabajos a{ height: 200px; overflow: hidden; display: block; margin-bottom: 40px; margin-top: 20px;}
 
+.acme{
 
+    font-family: 'Acme', ;
+    color: white;
+}
+
+.zcool{
+    font-family: 'ZCOOL QingKe HuangYou', ;
+    color: white;
+}
+.allan{
+    font-family: 'Allan', ;
+    color: white;
+}
