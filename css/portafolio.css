@@ -29,7 +29,8 @@ padding-left: 5rem;
     text-align: center;
       }
 
-}
+
+      
 .bot{
     background-color: #373A3C;
     color:white;
@@ -65,7 +66,7 @@ padding-left: 5rem;
 }
 
 .img{
-   background-image: url(../Assets/Assets-portafolio/CAPADOCIA.jpg);
+   background-image: url(../Assets/Assets-portafolio/capadocia.JPG);
    height:100vh;
    background-size: cover;
    background-repeat: no-repeat;
@@ -97,7 +98,7 @@ padding-left: 5rem;
 .intro1{
     text-align: justify;
     color: white;
-    font-family:  font-family: 'Acme', ;
+    font-family: 'Acme', ;
     opacity: 70%;
     line-height: 40px;
     padding-top: 2rem;
